@@ -26,16 +26,16 @@
         </div>
         <div class="flex gap-2 md:gap-4 items-center flex-wrap">
             <button class="btn bg-[#41ff6b1a] rounded-3xl w-[80px] md:w-[100px] flex items-center justify-center">
-                0
+                <span id="love">0</span>
                 <img class="h-[20px] w-[20px] ml-1" src="assets/heart.png" alt="">
             </button>
             <button class="btn bg-[#41ff6b1a] rounded-3xl w-[80px] md:w-[100px] flex items-center justify-center">
-                100
+                <span id="availableCoin">100</span>
                 <img class="h-[20px] w-[20px] ml-1" src="assets/coin.png" alt="">
             </button>
             <button
                 class="btn bg-[#00a63e] rounded-3xl w-[80px] md:w-[100px] hover:bg-green-800 text-white flex items-center justify-center">
-                2 Coppy
+                <span id="coppy-btn"> 0 </span>Coppy
             </button>
         </div>
     </nav>
@@ -56,11 +56,11 @@
 
 
 
-
+            <!-- National emergency number card  -->
             <div class="national-emergency-number  bg-white rounded-2xl shadow-[0_2px_3px_rgba(0,0,0,1)] p-2 ">
                 <div class="flex justify-between items-center p-2 ml-[10px]">
                     <img class=" bg-[#FFE3E2] rounded-2xl h-[40px] w-[40px] " src="assets/emergency.png" alt="">
-                    <img class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
+                    <img id="tap-love-1" class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
                         src="assets/images.png" alt="">
                 </div>
                 <div class=" ml-[15px]">
@@ -70,20 +70,21 @@
                     <button class="btn bg-gray rounded-3xl w-[50px] my-[10px]">All</button>
                 </div>
                 <div class=" ml-[15px] gap-4">
-                    <button class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
+                    <button id="national-coppy-btn" class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
                             class="fa-solid fa-copy"></i> Coppy</button>
-                    <button class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
+                    <button id="national-call-btn"
+                        class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
                 </div>
             </div>
 
 
 
 
-
-            <div class="national-emergency-number  bg-white rounded-2xl shadow-[0_2px_3px_rgba(0,0,0,1)] p-2 ">
+            <!-- Police Helpline Number -->
+            <div class="bg-white rounded-2xl shadow-[0_2px_3px_rgba(0,0,0,1)] p-2 ">
                 <div class="flex justify-between items-center p-2 ml-[10px]">
                     <img class=" bg-[#FFE3E2] rounded-2xl h-[40px] w-[40px] " src="assets/police.png" alt="">
-                    <img class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
+                    <img id="tap-love-2" class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
                         src="assets/images.png" alt="">
                 </div>
                 <div class=" ml-[15px]">
@@ -93,9 +94,10 @@
                     <button class="btn bg-gray rounded-3xl  my-[10px]">Police</button>
                 </div>
                 <div class=" ml-[15px] gap-4">
-                    <button class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
+                    <button id="police-coppy-btn" class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
                             class="fa-solid fa-copy"></i>Coppy</button>
-                    <button class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
+                    <button id="police-call-btn"
+                        class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
                 </div>
             </div>
 
@@ -103,11 +105,11 @@
 
 
 
-
-            <div class="national-emergency-number  bg-white rounded-2xl shadow-[0_2px_3px_rgba(0,0,0,1)] p-2 ">
+            <!-- Fire Service Number -->
+            <div class="bg-white rounded-2xl shadow-[0_2px_3px_rgba(0,0,0,1)] p-2 ">
                 <div class="flex justify-between items-center p-2 ml-[10px]">
                     <img class=" bg-[#FFE3E2] rounded-2xl h-[40px] w-[40px] " src="assets/fire-service.png" alt="">
-                    <img class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
+                    <img id="tap-love-3" class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
                         src="assets/images.png" alt="">
                 </div>
                 <div class=" ml-[15px]">
@@ -117,19 +119,20 @@
                     <button class="btn bg-gray rounded-3xl my-[10px]">Fire</button>
                 </div>
                 <div class=" ml-[15px] gap-4">
-                    <button class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
+                    <button id="fire-coppy-btn" class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
                             class="fa-solid fa-copy"></i>Coppy</button>
-                    <button class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
+                    <button id="fire-call-btn"
+                        class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
                 </div>
             </div>
 
 
 
-
-            <div class="national-emergency-number  bg-white rounded-2xl shadow-[0_2px_3px_rgba(0,0,0,1)] p-2 ">
+            <!-- Ambulance Service -->
+            <div class="bg-white rounded-2xl shadow-[0_2px_3px_rgba(0,0,0,1)] p-2 ">
                 <div class="flex justify-between items-center p-2 ml-[10px]">
                     <img class=" bg-[#FFE3E2] rounded-2xl h-[40px] w-[40px] " src="assets/ambulance.png" alt="">
-                    <img class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
+                    <img id="tap-love-4" class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
                         src="assets/images.png" alt="">
                 </div>
                 <div class=" ml-[15px]">
@@ -139,19 +142,20 @@
                     <button class="btn bg-gray rounded-3xl  my-[10px]">Health</button>
                 </div>
                 <div class=" ml-[15px] gap-4">
-                    <button class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
+                    <button id="ambulance-coppy-btn" class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
                             class="fa-solid fa-copy"></i>Coppy</button>
-                    <button class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
+                    <button id="ambulance-call-btn"
+                        class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
                 </div>
             </div>
 
 
 
-
+            <!-- Women & Child Helpline -->
             <div class="national-emergency-number  bg-white rounded-2xl shadow-[0_2px_3px_rgba(0,0,0,1)] p-2 ">
                 <div class="flex justify-between items-center p-2 ml-[10px]">
                     <img class=" bg-[#FFE3E2] rounded-2xl h-[40px] w-[40px] " src="assets/emergency.png" alt="">
-                    <img class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
+                    <img id="tap-love-5" class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
                         src="assets/images.png" alt="">
                 </div>
                 <div class=" ml-[15px]">
@@ -161,19 +165,20 @@
                     <button class="btn bg-gray rounded-3xl  my-[10px]">Help</button>
                 </div>
                 <div class=" ml-[15px] gap-4">
-                    <button class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
+                    <button id="women-coppy-btn" class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
                             class="fa-solid fa-copy"></i>Coppy</button>
-                    <button class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
+                    <button id="women-child-call-btn"
+                        class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
                 </div>
             </div>
 
 
 
-
+            <!-- Anti-Corruption Helpline -->
             <div class="national-emergency-number  bg-white rounded-2xl shadow-[0_2px_3px_rgba(0,0,0,1)] p-2 ">
                 <div class="flex justify-between items-center p-2 ml-[10px]">
                     <img class=" bg-[#FFE3E2] rounded-2xl h-[40px] w-[40px] " src="assets/emergency.png" alt="">
-                    <img class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
+                    <img id="tap-love-6" class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
                         src="assets/images.png" alt="">
                 </div>
                 <div class=" ml-[15px]">
@@ -183,19 +188,20 @@
                     <button class="btn bg-gray rounded-3xl w-[50px] my-[10px]">Govt</button>
                 </div>
                 <div class=" ml-[15px] gap-4">
-                    <button class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
+                    <button id="anti-coppy-btn" class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
                             class="fa-solid fa-copy"></i>Coppy</button>
-                    <button class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
+                    <button id="anti-corruption-call-btn"
+                        class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
                 </div>
             </div>
 
 
 
-
+            <!-- Electricity Helpline -->
             <div class="national-emergency-number  bg-white rounded-2xl shadow-[0_2px_3px_rgba(0,0,0,1)] p-2 ">
                 <div class="flex justify-between items-center p-2 ml-[10px]">
                     <img class=" bg-[#FFE3E2] rounded-2xl h-[40px] w-[40px] " src="assets/emergency.png" alt="">
-                    <img class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
+                    <img id="tap-love-7" class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
                         src="assets/images.png" alt="">
                 </div>
                 <div class=" ml-[15px]">
@@ -205,20 +211,21 @@
                     <button class="btn bg-gray rounded-3xl  my-[10px]">Electricity</button>
                 </div>
                 <div class=" ml-[15px] gap-4">
-                    <button class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
+                    <button id="electricity-coppy-btn" class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
                             class="fa-solid fa-copy"></i>Coppy</button>
-                    <button class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
+                    <button id="electricity-call-btn"
+                        class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
                 </div>
             </div>
 
 
 
 
-
+            <!-- Brac Helpline -->
             <div class="national-emergency-number  bg-white rounded-2xl shadow-[0_2px_3px_rgba(0,0,0,1)] p-2 ">
                 <div class="flex justify-between items-center p-2 ml-[10px]">
                     <img class=" bg-[#FFE3E2] rounded-2xl h-[40px] w-[40px] " src="assets/emergency.png" alt="">
-                    <img class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
+                    <img id="tap-love-8" class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
                         src="assets/images.png" alt="">
                 </div>
                 <div class=" ml-[15px]">
@@ -228,20 +235,21 @@
                     <button class="btn bg-gray rounded-3xl  my-[10px]">NGO</button>
                 </div>
                 <div class=" ml-[15px] gap-4">
-                    <button class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
+                    <button id="brac-coppy-btn" class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
                             class="fa-solid fa-copy"></i>Coppy</button>
-                    <button class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
+                    <button id="brac-call-btn"
+                        class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
                 </div>
             </div>
 
 
 
 
-
+            <!-- Bangladesh Railway Helpline -->
             <div class="national-emergency-number  bg-white rounded-2xl shadow-[0_2px_3px_rgba(0,0,0,1)] p-2 ">
                 <div class="flex justify-between items-center p-2 ml-[10px]">
                     <img class=" bg-[#FFE3E2] rounded-2xl h-[40px] w-[40px] " src="assets/emergency.png" alt="">
-                    <img class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
+                    <img id="tap-love-9" class="h-[20px] w-[20px] hover:scale-110 transition-transform cursor-pointer"
                         src="assets/images.png" alt="">
                 </div>
                 <div class=" ml-[15px]">
@@ -251,9 +259,10 @@
                     <button class="btn bg-gray rounded-3xl  my-[10px]">Travel</button>
                 </div>
                 <div class=" ml-[15px] gap-4">
-                    <button class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
+                    <button id="bd-coppy-btn" class="btn bg-white rounded-1xl w-[150px] hover:bg-gray-200"><i
                             class="fa-solid fa-copy"></i>Coppy</button>
-                    <button class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
+                    <button id="bd-railway-call-btn"
+                        class="btn  bg-[#00a63e] rounded-1xl w-[150px] hover:bg-green-800 text-white">Call</button>
                 </div>
             </div>
 
@@ -266,7 +275,7 @@
 
 
 
-        <div class="call-history-div shadow-[0_1px_2px_rgba(0,0,0,1)] rounded-2xl p-2 bg-white w-full lg:w-[300px]">
+        <!-- <div  class="call-history-div shadow-[0_1px_2px_rgba(0,0,0,1)] rounded-2xl p-2 bg-white w-full lg:w-[300px]">
             <div class="flex justify-between flex p-4 w-[300px] ">
                 <div class=" flex justify-between h-10 text-center items-center gap-2 p-2 ">
                     <i class="fa-regular fa-clock"></i>
@@ -278,18 +287,38 @@
 
 
 
-            <div class="call-history-div bg-gray-100 rounded-2xl p-2 flex gap-3">
+            <div id="call-history" class="bg-gray-100 rounded-2xl p-2 flex gap-3">
                 <div>
                     <div class="w-[180px]">
                         <h1 class="font-bold">National Emergency Number</h1>
                     </div>
                     <p>999</p>
                 </div>
-                <div class="mt-[17px]">
-                    <p>11:36:58 AM</p>
+                <div class="mt-[22px]">
+                    <p class="text-[12px]">11:36:58 AM</p>
                 </div>
             </div>
+        </div> -->
+        <div class="call-history-div shadow-[0_1px_2px_rgba(0,0,0,1)] rounded-2xl p-2 bg-white w-full lg:w-[300px]">
+
+            <div class="flex justify-between flex p-4 w-[300px]">
+                <div class="flex justify-between h-10 text-center items-center gap-2 p-2">
+                    <i class="fa-regular fa-clock"></i>
+                    <p class="font-bold">Call History</p>
+                </div>
+                <button id="clear-history"
+                    class="btn bg-green rounded-3xl w-[100px] bg-[#00a63e] hover:bg-green-800 text-white">Clear</button>
+            </div>
+
+            <div id="call-history" class=" rounded-2xl p-2 flex flex-col gap-3">
+
+            </div>
         </div>
+
+
+
+
+
 
 
 
@@ -305,3 +334,6 @@
 </body>
 
 </html>
+
+
+
