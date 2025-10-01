@@ -235,7 +235,7 @@ window.addEventListener('click', (e) => {
     }
 });
 
-// ================== INITIALIZE ==================
+
 loadCategories();
 loadAllPlants();
 displayCart();
